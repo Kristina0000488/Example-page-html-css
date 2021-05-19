@@ -1,0 +1,25 @@
+.main-solution {
+    .row {
+        margin: 0 !important;
+    }
+
+    .text-left, .text-right, .row {
+        @media (max-width: 991.98px) {
+            text-align: center !important;
+        }
+    }
+
+    .txt-center {
+        align-self: center;
+    }
+
+    .img-solution {
+        max-width: 60%;
+        height: auto;
+
+        @media (max-width: 991.98px) {
+            margin-bottom: 25px;
+            max-width: 45%;
+        }
+    }
+}

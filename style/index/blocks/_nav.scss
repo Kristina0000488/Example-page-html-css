@@ -1,0 +1,27 @@
+.nav-style {
+    background-color: $baseColor;
+    padding: 10px 5% !important;
+    font-size: 17px !important;
+}
+
+.navbar-brand {
+    font-size: 22px !important;
+}
+
+.nav-item+.active>.nav-link {
+    &:hover {
+        color: #cdb7ea !important;
+    }
+}
+
+.nav-item>.nav-link {
+    &:hover {
+        color: #ebe2f6 !important;
+    }
+}
+.dropdown,
+.dropleft,
+.dropright,
+.dropup {
+    align-self: center;
+}

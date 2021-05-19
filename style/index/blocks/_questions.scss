@@ -1,0 +1,26 @@
+.row_question_style {
+    justify-content: center;
+}
+
+.card-header_style {
+    background-color: rgba(0, 0, 0, 0) !important;
+
+    .btn-link {
+        font-weight: 600 !important;
+        color: #000000 !important;
+
+        &:hover {
+            text-decoration: none !important;
+        }
+    }
+
+    .btn {
+        font-size: 1.2rem !important;
+
+        &:focus {
+            outline: 0;
+            box-shadow: 0 0 0 0.2rem rgba(51, 26, 241, 0.28) !important;
+            text-decoration: none;
+        }
+    }
+}

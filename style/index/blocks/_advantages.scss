@@ -1,0 +1,31 @@
+.advantages {
+    padding-bottom: 30px;
+
+    .card-deck,
+    .row {
+        justify-content: center;
+
+        .col-md-12 {
+            text-align: -webkit-center;
+        }
+    }
+
+    .card {
+        max-width: 35em;
+        min-width: 13em;
+        margin-bottom: 25px !important;
+        border: none;
+        transition-duration: .6s;
+
+        img {
+            min-width: 50%;
+            max-width: 65%;
+            align-self: center;
+        }
+
+        &:hover {
+            box-shadow: 0 0 5px 0 $baseColor;
+            transform: scale(1.02);
+        }
+    }
+}

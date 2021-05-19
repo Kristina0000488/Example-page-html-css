@@ -1,0 +1,63 @@
+/*jumbotron*/
+
+.sale-block,
+.extra-sale-block {
+    background-color: $sale-block-color !important;
+    margin: 70px 0 0 !important;
+    font-size: 1.05em;
+    color: white;
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+    filter: none !important;
+    opacity: 1 !important;
+}
+
+.extra-sale-block {
+    margin: 0 !important;
+    text-align: center;
+    display: none;
+
+    @media (max-width: 991.98px) {
+        display: block !important;
+    }
+}
+
+.main-sale-block {
+    color: black !important;
+    font-size: 1.15rem;
+    text-align: left !important;
+    right: 0 !important;
+    left: 5% !important;
+    bottom: 26% !important;
+    max-width: 38% !important;
+
+    @media (max-width: 1440px) {
+        bottom: 20% !important;
+    }
+
+    @media (max-width: 1110px) {
+        bottom: 15% !important;
+    }
+}
+
+.btn-main-sale {
+    transition-duration: .6s;
+}
+
+.btn-sale {
+    background-color: $sale-btn-col !important;
+    color: white !important;
+    border-radius: 1.3rem !important;
+    padding: 0.5rem 1.3rem !important;
+
+    &:hover {
+        box-shadow: 0 0 10px 0 $sale-btn-col;
+        background-color: #0081ac !important;
+    }
+}
+
+.btn-extra-style {
+    &:hover {
+        box-shadow: 0 0 10px 0 #4eaccc !important;
+    }
+}

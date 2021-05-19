@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Nunito-Regular";
+    src: url(../../../fonts/OpenSans_Nunito/nunito/Nunito-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Nunito-Bold";
+    src: url(../../../fonts/OpenSans_Nunito/nunito/Nunito-Bold.ttf);
+}
+
+@font-face {
+    font-family: "OpenSans-regular";
+    src: url(../../../fonts/OpenSans_Nunito/opensans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "OpenSans-bold";
+    src: url(../../../fonts/OpenSans_Nunito/opensans/OpenSans-Bold.ttf);
+}
+
+$h1Font: "Nunito-Bold",
+sans-serif;
+$hFont: "Nunito-Regular",
+sans-serif;
+$mainFont: "OpenSans-regular",
+sans-serif;
+
+/*основные цвета*/
+$baseColor: rgba(82, 47, 198, 1);
+$sale-block-color: rgba(116, 93, 194, 1);
+$sale-btn-col:#0094c6;
+$extra-col-block2: #e3d5f752;
+
+
+/*дополнительные цвета*/
+$baseColor-2: rgb(78, 44, 190);
+$sale-block-color-2: #63b995;
+$extra-col-3: #0583F2;
+$extra-col-2: #F17300;
+$extra-col-block: rgba(246, 246, 246, 1);
+
+/**
+ * ----------------------------------------
+ * animation shake-lr
+ * ----------------------------------------
+ */
+@keyframes shake-lr {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+        transform-origin: 50% 50%;
+    }
+
+    10% {
+        transform: rotate(8deg);
+    }
+
+    20%,
+    40%,
+    60% {
+        transform: rotate(-10deg);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: rotate(10deg);
+    }
+
+    80% {
+        transform: rotate(-8deg);
+    }
+
+    90% {
+        transform: rotate(8deg);
+    }
+}

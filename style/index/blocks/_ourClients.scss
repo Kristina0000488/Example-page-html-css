@@ -1,0 +1,33 @@
+.ourClients {
+    background-color: $extra-col-block2;
+    p {
+        width: 85%;
+
+        @media (max-width: 991.98px) {
+            width: 100%;
+        }
+    }
+
+    .row {
+        .ourclients-img {
+            transition-duration: 0.5s;
+
+            @media (max-width: 992px) {
+                max-width: 60%;
+                margin-bottom: 45px;
+            }
+
+            &:hover {
+                animation: shake-lr 0.9s both;
+            }
+        }
+    }
+
+    .text-left {
+        align-self: center;
+
+        @media (max-width: 991.98px) {
+            text-align: center !important;
+        }
+    }
+}
