@@ -1,1 +1,1 @@
-Example-page-html-css
+html css page example.
